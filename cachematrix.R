@@ -1,4 +1,5 @@
-## The makeCacheMatrix function is a function that stores a list of functions. 
+## The makeCacheMatrix function is a function that accepts x as an argument 
+## and stores a list of functions. 
 ## It consists of 4 functions: set, get, setinverse, getinverse.
 ## x should be an invertible matrix.
 
@@ -34,6 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The cacheSolve function computes the inverse of the special "matrix" returned by
 ## the makeCacheMatrix function
+
 ## If the inverse has already been calculated (and the matrix has not changed),
 ## then the cacheSolve function should retrieve the inverse from the cache
 
